@@ -17,8 +17,14 @@ test('gets the employee name', () => {
 
 test('gets employee id', () => {
     const employee = new Employee('dillon', 1212, 'email@email.com')
-    const id = "1212"
+    
     expect(employee.getId()).toBe(1212)
+});
+
+test('gets employee email', () => {
+    const employee = new Employee('dillon', 1212, 'email@email.com')   
+
+    expect(employee.getEmail()).toBe("email@email.com")
 });
 
 
