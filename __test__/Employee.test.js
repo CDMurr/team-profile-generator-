@@ -1,7 +1,7 @@
 // for each class, which will start with the employee class
 const Employee = require('../lib/Employee')
-// right test for constructor for the employee class 
-test('creates a employee badge', () => {
+// write test for constructor for the employee class 
+test('creates a employee profile', () => {
     const employee = new Employee('dillon', 1212, 'email@email.com')
    
     expect(employee.name).toBe('dillon');
@@ -27,15 +27,11 @@ test('gets employee email', () => {
     expect(employee.getEmail()).toBe("email@email.com")
 });
 
+test('gets employees role', () => {
+    const employee = new Employee('dillon', 1212, 'email@email.com') 
 
-
-// test('gets employee email', () => {
-//     const employee = new Employee('code@email.com');
-    
-//     expect(employee.getEmail()).toBe('code@email.com')
-// })
-
-
+    expect(employee.getRole()).toBe('Employee')
+});
 
 
 
