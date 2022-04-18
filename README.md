@@ -19,4 +19,7 @@ Team profile builder for manager use. Once manager enters there info, then they 
   
 
   ## link 
-  https://github.com/CDMurr/Readme-generator
+ https://github.com/CDMurr/team-profile-generator-
+
+ ## video link 
+![alt text](.//Assignment%2010%20video%20demo%20.mp4)
